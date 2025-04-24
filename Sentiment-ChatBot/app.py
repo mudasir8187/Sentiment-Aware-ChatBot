@@ -64,7 +64,7 @@ def main():
             st.bar_chart(stats)
             
         st.markdown("---")
-        st.markdown("Built with Gemini API")
+        st.markdown("Built by AI Team")
     
     # Main content
     st.title("Sentiment-Aware Chatbot")
