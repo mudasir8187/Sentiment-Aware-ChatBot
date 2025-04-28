@@ -4,7 +4,7 @@ import os
 class GeminiClient:
     def __init__(self):
         """Initialize the Gemini API client with gemini-1.5-flash."""
-        api_key = "AIzaSyD89K3YCXhmdfX42MNOOxV5dnGUo7m-yYY"
+        api_key = "***** Put your API Key HERE ******"
         if not api_key:
             raise ValueError("GOOGLE_API_KEY environment variable not set")
         
